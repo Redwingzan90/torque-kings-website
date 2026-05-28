@@ -32,10 +32,10 @@ export default function App() {
       <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-stone-950/75 backdrop-blur-xl">
         <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 md:h-20 md:px-8">
           <button onClick={() => jumpTo('top')} className="flex items-center gap-3">
-            <img src="/tq-logo.svg" alt="TQ logo" className="h-11 w-11" />
+            <img src="/tqlogo.png" alt="Torque Kings logo" className="h-11 w-11" />
             <div className="text-left">
               <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-amber-300">GWS Permian Casing, LP dba</p>
-              <p className="text-lg font-black tracking-tight">TQ Website</p>
+              <p className="text-lg font-black tracking-tight">Torque Kings</p>
             </div>
           </button>
 
@@ -94,8 +94,8 @@ export default function App() {
               transition={{ duration: 0.6 }}
               className="max-w-3xl"
             >
-              <img src="/tq-logo.svg" alt="TQ" className="mb-6 h-36 w-auto" />
-              <h1 className="text-5xl font-black leading-[0.95] tracking-tight md:text-7xl">TQ Website</h1>
+              <img src="/tqlogo.png" alt="Torque Kings" className="mb-6 h-36 w-auto" />
+              <h1 className="text-5xl font-black leading-[0.95] tracking-tight md:text-7xl">Torque Kings</h1>
               <p className="mt-5 max-w-2xl text-lg leading-relaxed text-stone-200 md:text-2xl">
                 Professional oilfield services built on 15+ years of expertise, strict safety execution,
                 and operational reliability in the Permian Basin.
@@ -270,7 +270,7 @@ export default function App() {
 
       <footer className="border-t border-white/10 bg-stone-950 py-8">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-4 text-sm text-stone-400 md:flex-row md:px-8">
-          <p>Copyright © 2024 TQ Website - All Rights Reserved.</p>
+          <p>Copyright © 2024 Torque Kings - All Rights Reserved.</p>
           <p>Powered by GoDaddy</p>
         </div>
       </footer>
